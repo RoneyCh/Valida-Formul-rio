@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Formuláro</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quam nemo, delectus nesciunt, molestiae<br> explicabo voluptatum, velit sequi quas odit totam numquam similique libero alias eos debitis optio harum atque.</p>
+
+        <form action="/" method="POST" class="formulario" style="display: flex; flex-direction: column;">
+            <label>Nome:</label>
+            <input type="text" class="nome validar">
+            <label>Sobrenome:</label>
+            <input type="text" class="sobrenome validar">
+            <label>CPF:</label>
+            <input type="text" class="cpf validar">
+            <label>Usuário:</label>
+            <input type="text" class="usuario validar">
+            <label>Senha:</label>
+            <input type="password" class="senha validar">
+            <label>Repetir senha:</label>
+            <input type="password" class="repetir-senha validar">
+            <button type="submit" class="submit">Enviar</button>
+        </form>
+
+    </div>
+
+    <script src="/validaCPF.js"></script>
+    <script src="/index.js"></script>
+</body>
+</html>
